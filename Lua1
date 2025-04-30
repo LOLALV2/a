@@ -1,140 +1,161 @@
 --[===[
-Open source this because i don't like to gatekeep shit
+Open source this because i don't like to gatekeep shit lol xd
 ]===]
-local PornHub1 = game:GetService("CoreGui")
-local PornHub2 = game:GetService("TweenService")
-local PornHub3 = game:GetService("Players")
-local PornHub4 = game:GetService("RunService")
-local PornHub5 = game:GetService("UserInputService").TouchEnabled
-local PornHub6 = game:GetService("RunService")
-local PornHub7 = workspace.CurrentCamera
-local BrutalSexPorn1 = PornHub3.LocalPlayer
-local BrutalSexPorn2 = false
+
+--\\																			 Locals																													\\
+local PornHub1																	 = game:GetService("CoreGui")
+local PornHub2																	 = game:GetService("TweenService")
+local PornHub3																	 = game:GetService("Players")
+local PornHub4						 											 = game:GetService("RunService")
+local PornHub5																	 = game:GetService("UserInputService").TouchEnabled
+local PornHub6																	 = game:GetService("RunService")
+local PornHub7																	 = workspace.CurrentCamera
+local BrutalSexPorn1															 = PornHub3.LocalPlayer
+local BrutalSexPorn2															 = false
 local BrutalSexPorn3
-local BrutalSexPorn4
-local porns1 = function(table, Rotate, Speed)
+local BrutalSexPorn4h
+
+--\\																			 Functions																												\\
+local porns1																	 = function(table, Speed)
 for Index, Value in table do
-Value.Rotation = Rotate
-PornHub2:Create(Value, TweenInfo.new(Speed), {Rotation = 0}):Play()
+Value.Rotation																	 = 360
+PornHub2:Create(Value, TweenInfo.new(Speed), {
+Rotation																		 = 0
+}):Play()
 end
 end
-local porns2 = function()
+
+local porns2																	 = function()
 return(BrutalSexPorn1.Character:FindFirstChild("HumanoidRootPart") or BrutalSexPorn1.Character.PrimaryPart)
 end
-local porns3 = function()
+
+local porns3																	 = function()
 pcall(function()
 porns2():FindFirstChild("Doffan Fly Shit BodyVelocity"):Destroy()
 porns2():FindFirstChild("Doffan Fly Shit BodyGyro"):Destroy()
-BrutalSexPorn1.Character:FindFirstChildWhichIsA("Humanoid").PlatformStand = false
+BrutalSexPorn1.Character:FindFirstChildWhichIsA("Humanoid").PlatformStand		 = false
 BrutalSexPorn3:Disconnect()
 BrutalSexPorn4:Disconnect()
-BrutalSexPorn2 = false
+BrutalSexPorn2																	 = false
 end)
 end
-local porns4 = function()
+
+local porns4																	 = function()
 porns3()
-BrutalSexPorn2 = true
-local Horny = porns2()
-local Porn1 = Instance.new("BodyGyro", Horny)
-local Porn2 = Instance.new("BodyVelocity", Horny)
-Porn2.Name = "Doffan Fly Shit BodyVelocity"
-Porn2.MaxForce = Vector3.zero
-Porn2.Velocity = Vector3.zero
-Porn1.P = 1000
-Porn1.D = 50
-Porn1.Name = "Doffan Fly Shit BodyGyro"
-Porn1.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
-BrutalSexPorn3 = BrutalSexPorn1.CharacterAdded:Connect(function()
-local Porn1 = Instance.new("BodyGyro", Horny)
-local Porn2 = Instance.new("BodyVelocity", Horny)
-Porn2.Name = "Doffan Fly Shit BodyVelocity"
-Porn2.MaxForce = Vector3.zero
-Porn2.Velocity = Vector3.zero
-Porn1.P = 1000
-Porn1.D = 50
-Porn1.Name = "Doffan Fly Shit BodyGyro"
-Porn1.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
+BrutalSexPorn2																	 = true
+local Horny																		 = porns2()
+local Porn1																		 = Instance.new("BodyGyro", Horny)
+local Porn2																		 = Instance.new("BodyVelocity", Horny)
+Porn2.Name																		 = "Doffan Fly Shit BodyVelocity"
+Porn2.MaxForce																	 = Vector3.zero
+Porn2.Velocity																	 = Vector3.zero
+Porn1.P																			 = 1000
+Porn1.D																			 = 50
+Porn1.Name																		 = "Doffan Fly Shit BodyGyro"
+Porn1.MaxTorque																	 = Vector3.new(9e9, 9e9, 9e9)
+BrutalSexPorn3																	 = BrutalSexPorn1.CharacterAdded:Connect(function()
+local Porn1																		 = Instance.new("BodyGyro", Horny)
+local Porn2																		 = Instance.new("BodyVelocity", Horny)
+Porn2.Name																		 = "Doffan Fly Shit BodyVelocity"
+Porn2.MaxForce																	 = Vector3.zero
+Porn2.Velocity																	 = Vector3.zero
+Porn1.P																			 = 1000
+Porn1.D																			 = 50
+Porn1.Name																		 = "Doffan Fly Shit BodyGyro"
+Porn1.MaxTorque																	 = Vector3.new(9e9, 9e9, 9e9)
 end)
-BrutalSexPorn4 = PornHub6.RenderStepped:Connect(function()
+BrutalSexPorn4																	 = PornHub6.RenderStepped:Connect(function()
 if BrutalSexPorn1.Character:FindFirstChildWhichIsA("Humanoid") and Horny and Horny:FindFirstChild("Doffan Fly Shit BodyVelocity") and Horny:FindFirstChild("Doffan Fly Shit BodyGyro") then
-local Sex1 = BrutalSexPorn1.Character:FindFirstChildWhichIsA("Humanoid")
-local Sex2 = Horny:FindFirstChild("Doffan Fly Shit BodyVelocity")
-local Sex3 = Horny:FindFirstChild("Doffan Fly Shit BodyGyro")
-local Sex4 = require(BrutalSexPorn1.PlayerScripts:WaitForChild("PlayerModule"):WaitForChild("ControlModule")):GetMoveVector()
-Sex1.PlatformStand = true
-Sex2.MaxForce = Vector3.new(9e9, 9e9, 9e9)
-Sex2.Velocity = Vector3.new()
-Sex3.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
-Sex3.CFrame = PornHub7.CoordinateFrame
+local Sex1																		 = BrutalSexPorn1.Character:FindFirstChildWhichIsA("Humanoid")
+local Sex2																		 = Horny:FindFirstChild("Doffan Fly Shit BodyVelocity")
+local Sex3																		 = Horny:FindFirstChild("Doffan Fly Shit BodyGyro")
+local Sex4																		 = require(BrutalSexPorn1.PlayerScripts:WaitForChild("PlayerModule"):WaitForChild("ControlModule")):GetMoveVector()
+Sex1.PlatformStand																 = true
+Sex2.MaxForce																	 = Vector3.new(9e9, 9e9, 9e9)
+Sex2.Velocity																	 = Vector3.new()
+Sex3.MaxTorque																	 = Vector3.new(9e9, 9e9, 9e9)
+Sex3.CFrame																		 = PornHub7.CoordinateFrame
 if Sex4.X > 0 then
-Sex2.Velocity = Sex2.Velocity + PornHub7.CFrame.RightVector * (Sex4.X * (1 * 50))
+Sex2.Velocity																	 = Sex2.Velocity + PornHub7.CFrame.RightVector * (Sex4.X * (1 * 50))
 end
 if Sex4.X < 0 then
-Sex2.Velocity = Sex2.Velocity + PornHub7.CFrame.RightVector * (Sex4.X * (1 * 50))
+Sex2.Velocity																	 = Sex2.Velocity + PornHub7.CFrame.RightVector * (Sex4.X * (1 * 50))
 end
 if Sex4.Z > 0 then
-Sex2.Velocity = Sex2.Velocity - PornHub7.CFrame.LookVector * (Sex4.Z * (1 * 50))
+Sex2.Velocity																	 = Sex2.Velocity - PornHub7.CFrame.LookVector * (Sex4.Z * (1 * 50))
 end
 if Sex4.Z < 0 then
-Sex2.Velocity = Sex2.Velocity - PornHub7.CFrame.LookVector * (Sex4.Z * (1 * 50))
+Sex2.Velocity																	 = Sex2.Velocity - PornHub7.CFrame.LookVector * (Sex4.Z * (1 * 50))
 end
 end
 end)
 end
-local porn1 = Instance.new("ScreenGui", PornHub1)
-local porn2 = Instance.new("Frame", porn1)
-local porn3 = Instance.new("TextLabel", porn2)
-local porn4 = Instance.new("TextButton", porn2)
-local porn5 = Instance.new("TextLabel", porn2)
-local porn6 = Instance.new("TextLabel", porn2)
-porn6.Size = UDim2.new(1, 0, 0, 20)
-porn6.BackgroundTransparency = 1
-porn6.TextScaled = true
-porn6.RichText = true
-porn6.Text = "Credits: <font color = \"#00ffff\">Doffan</font>"
-porn6.Position = UDim2.fromOffset(0, 140)
-porn6.TextColor3 = Color3.fromRGB(255, 255, 255)
-porn5.Position = UDim2.fromOffset(0, 110)
-porn5.BackgroundTransparency = 1
-porn5.TextScaled = true
-porn5.RichText = true
-porn5.Text = "Status: <font color = \"#ff0000\">Off</font>"
-porn5.Size = UDim2.new(1, 0, 0, 30)
-porn5.TextColor3 = Color3.fromRGB(255, 255, 255)
-porn4.Position = UDim2.fromOffset(20, 50)
-porn4.Text = "Toggle"
-porn4.BackgroundColor3 = Color3.fromRGB(10, 100, 200)
-porn4.BorderSizePixel = 0
-porn4.Size = UDim2.new(1, -40, 0, 50)
-porn4.TextScaled = true
-porn4.TextColor3 = Color3.fromRGB(255, 255, 255)
-porn3.TextScaled = true
-porn3.Text = "Simple Fly V0.1"
-porn3.TextColor3 = Color3.fromRGB(255, 255, 255)
-porn3.BackgroundColor3 = Color3.fromRGB(10, 100, 200)
-porn3.Size = UDim2.new(1, 0, 0, 30)
-porn3.BorderSizePixel = 0
-porn2.AnchorPoint = Vector2.new(0.5, 0.5)
-porn2.Position = UDim2.fromScale(0.5, 2)
-porn2.Size = UDim2.fromOffset(300, 160)
-porn2.BorderSizePixel = 3
-porn2.BorderColor3 = Color3.fromRGB(20, 200, 200)
-porn2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-porn2.Selectable = true
-porn2.Draggable = true
-porn2.Active = true
-porn1.ResetOnSpawn = false
-porn1.IgnoreGuiInset = true
+
+--\\																			 Gui																													\\
+local porn1																		 = Instance.new("ScreenGui", PornHub1)
+local porn2																		 = Instance.new("Frame", porn1)
+local porn3																		 = Instance.new("TextLabel", porn2)
+local porn4																		 = Instance.new("TextButton", porn2)
+local porn5																		 = Instance.new("TextLabel", porn2)
+local porn6																		 = Instance.new("TextLabel", porn2)
+
+porn6.Size																		 = UDim2.new(1, 0, 0, 20)
+porn6.BackgroundTransparency													 = 1
+porn6.TextScaled																 = true
+porn6.RichText																	 = true
+porn6.Text																		 = "Credits: <font color = \"#00ffff\">Doffan</font>"
+porn6.Position																	 = UDim2.fromOffset(0, 140)
+porn6.TextColor3																 = Color3.fromRGB(255, 255, 255)
+
+porn5.Position																	 = UDim2.fromOffset(0, 110)
+porn5.BackgroundTransparency													 = 1
+porn5.TextScaled																 = true
+porn5.RichText																	 = true
+porn5.Text																		 = "Status: <font color = \"#ff0000\">Off</font>"
+porn5.Size																		 = UDim2.new(1, 0, 0, 30)
+porn5.TextColor3																 = Color3.fromRGB(255, 255, 255)
+
+porn4.Position																	 = UDim2.fromOffset(20, 50)
+porn4.Text																		 = "Toggle"
+porn4.BackgroundColor3															 = Color3.fromRGB(10, 100, 200)
+porn4.BorderSizePixel															 = 0
+porn4.Size																		 = UDim2.new(1, -40, 0, 50)
+porn4.TextScaled																 = true
+porn4.TextColor3																 = Color3.fromRGB(255, 255, 255)
+
+porn3.TextScaled																 = true
+porn3.Text																		 = "Simple Fly V0.1"
+porn3.TextColor3																 = Color3.fromRGB(255, 255, 255)
+porn3.BackgroundColor3															 = Color3.fromRGB(10, 100, 200)
+porn3.Size																		 = UDim2.new(1, 0, 0, 30)
+porn3.BorderSizePixel															 = 0
+
+porn2.AnchorPoint																 = Vector2.new(0.5, 0.5)
+porn2.Position																	 = UDim2.fromScale(0.5, 2)
+porn2.Size																		 = UDim2.fromOffset(300, 160)
+porn2.BorderSizePixel															 = 3
+porn2.BorderColor3																 = Color3.fromRGB(20, 200, 200)
+porn2.BackgroundColor3															 = Color3.fromRGB(20, 20, 20)
+porn2.Selectable																 = true
+porn2.Draggable																	 = true
+porn2.Active																	 = true
+
+porn1.ResetOnSpawn																 = false
+porn1.IgnoreGuiInset															 = true
+
+--\\																			 Gui Function																											\\
 porn4.MouseButton1Click:Connect(function()
 if not BrutalSexPorn2 then
 porns4()
-porn5.Text = "Status: <font color = \"#00ff00\">On</font>"
+porn5.Text																		 = "Status: <font color = \"#00ff00\">On</font>"
 else
 porns3()
-porn5.Text = "Status: <font color = \"#ff0000\">Off</font>"
+porn5.Text																		 = "Status: <font color = \"#ff0000\">Off</font>"
 end
 end)
+
 wait(game.Loaded)
+
 porns1({
 porn2,
 porn3,
@@ -142,6 +163,10 @@ porn4,
 porn5,
 porn6
 },
-360,
 1)
-PornHub2:Create(porn2, TweenInfo.new(0.5), {Position = UDim2.fromScale(0.5, 0.5)}):Play()
+
+PornHub2:Create(porn2, TweenInfo.new(0.5), {
+Position																		 = UDim2.fromScale(0.5, 0.5)
+}):Play()
+
+--\\																			 end																													\\
