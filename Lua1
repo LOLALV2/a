@@ -2,96 +2,96 @@
 Open source this because i don't like to gatekeep shit lol xd
 ]===]
 
---\\																			 Locals																													\\
-local PornHub1																	 = game:GetService("CoreGui")
-local PornHub2																	 = game:GetService("TweenService")
-local PornHub3																	 = game:GetService("Players")
-local PornHub4						 											 = game:GetService("RunService")
-local PornHub5																	 = game:GetService("UserInputService").TouchEnabled
-local PornHub6																	 = game:GetService("RunService")
-local PornHub7																	 = workspace.CurrentCamera
-local BrutalSexPorn1															 = PornHub3.LocalPlayer
-local BrutalSexPorn2															 = false
+--\\ Locals \\
+local PornHub1 = game:GetService("CoreGui")
+local PornHub2 = game:GetService("TweenService")
+local PornHub3 = game:GetService("Players")
+local PornHub4 = game:GetService("RunService")
+local PornHub5 = game:GetService("UserInputService").TouchEnabled
+local PornHub6 = game:GetService("RunService")
+local PornHub7 = workspace.CurrentCamera
+local BrutalSexPorn1 = PornHub3.LocalPlayer
+local BrutalSexPorn2 = false
 local BrutalSexPorn3
 local BrutalSexPorn4h
 
---\\																			 Functions																												\\
-local porns1																	 = function(table, Speed)
+--\\ Functions \\
+local porns1 = function(table, Speed)
 for Index, Value in table do
-Value.Rotation																	 = 360
+Value.Rotation = 360
 PornHub2:Create(Value, TweenInfo.new(Speed), {
-Rotation																		 = 0
+Rotation = 0
 }):Play()
 end
 end
 
-local porns2																	 = function()
+local porns2 = function()
 return(BrutalSexPorn1.Character:FindFirstChild("HumanoidRootPart") or BrutalSexPorn1.Character.PrimaryPart)
 end
 
-local porns3																	 = function()
+local porns3 = function()
 pcall(function()
 porns2():FindFirstChild("Doffan Fly Shit BodyVelocity"):Destroy()
 porns2():FindFirstChild("Doffan Fly Shit BodyGyro"):Destroy()
-BrutalSexPorn1.Character:FindFirstChildWhichIsA("Humanoid").PlatformStand		 = false
+BrutalSexPorn1.Character:FindFirstChildWhichIsA("Humanoid").PlatformStand = false
 BrutalSexPorn3:Disconnect()
 BrutalSexPorn4:Disconnect()
-BrutalSexPorn2																	 = false
+BrutalSexPorn2 = false
 end)
 end
 
-local porns4																	 = function()
+local porns4 = function()
 porns3()
-BrutalSexPorn2																	 = true
-local Horny																		 = porns2()
-local Porn1																		 = Instance.new("BodyGyro", Horny)
-local Porn2																		 = Instance.new("BodyVelocity", Horny)
-Porn2.Name																		 = "Doffan Fly Shit BodyVelocity"
-Porn2.MaxForce																	 = Vector3.zero
-Porn2.Velocity																	 = Vector3.zero
-Porn1.P																			 = 1000
-Porn1.D																			 = 50
-Porn1.Name																		 = "Doffan Fly Shit BodyGyro"
-Porn1.MaxTorque																	 = Vector3.new(9e9, 9e9, 9e9)
-BrutalSexPorn3																	 = BrutalSexPorn1.CharacterAdded:Connect(function()
-local Porn1																		 = Instance.new("BodyGyro", Horny)
-local Porn2																		 = Instance.new("BodyVelocity", Horny)
-Porn2.Name																		 = "Doffan Fly Shit BodyVelocity"
-Porn2.MaxForce																	 = Vector3.zero
-Porn2.Velocity																	 = Vector3.zero
-Porn1.P																			 = 1000
-Porn1.D																			 = 50
-Porn1.Name																		 = "Doffan Fly Shit BodyGyro"
-Porn1.MaxTorque																	 = Vector3.new(9e9, 9e9, 9e9)
+BrutalSexPorn2 = true
+local Horny = porns2()
+local Porn1 = Instance.new("BodyGyro", Horny)
+local Porn2 = Instance.new("BodyVelocity", Horny)
+Porn2.Name = "Doffan Fly Shit BodyVelocity"
+Porn2.MaxForce = Vector3.zero
+Porn2.Velocity = Vector3.zero
+Porn1.P = 1000
+Porn1.D = 50
+Porn1.Name = "Doffan Fly Shit BodyGyro"
+Porn1.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
+BrutalSexPorn3 = BrutalSexPorn1.CharacterAdded:Connect(function()
+local Porn1 = Instance.new("BodyGyro", Horny)
+local Porn2 = Instance.new("BodyVelocity", Horny)
+Porn2.Name = "Doffan Fly Shit BodyVelocity"
+Porn2.MaxForce = Vector3.zero
+Porn2.Velocity = Vector3.zero
+Porn1.P = 1000
+Porn1.D = 50
+Porn1.Name = "Doffan Fly Shit BodyGyro"
+Porn1.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
 end)
-BrutalSexPorn4																	 = PornHub6.RenderStepped:Connect(function()
+BrutalSexPorn4 = PornHub6.RenderStepped:Connect(function()
 if BrutalSexPorn1.Character:FindFirstChildWhichIsA("Humanoid") and Horny and Horny:FindFirstChild("Doffan Fly Shit BodyVelocity") and Horny:FindFirstChild("Doffan Fly Shit BodyGyro") then
-local Sex1																		 = BrutalSexPorn1.Character:FindFirstChildWhichIsA("Humanoid")
-local Sex2																		 = Horny:FindFirstChild("Doffan Fly Shit BodyVelocity")
-local Sex3																		 = Horny:FindFirstChild("Doffan Fly Shit BodyGyro")
-local Sex4																		 = require(BrutalSexPorn1.PlayerScripts:WaitForChild("PlayerModule"):WaitForChild("ControlModule")):GetMoveVector()
-Sex1.PlatformStand																 = true
-Sex2.MaxForce																	 = Vector3.new(9e9, 9e9, 9e9)
-Sex2.Velocity																	 = Vector3.new()
-Sex3.MaxTorque																	 = Vector3.new(9e9, 9e9, 9e9)
-Sex3.CFrame																		 = PornHub7.CoordinateFrame
+local Sex1 = BrutalSexPorn1.Character:FindFirstChildWhichIsA("Humanoid")
+local Sex2 = Horny:FindFirstChild("Doffan Fly Shit BodyVelocity")
+local Sex3 = Horny:FindFirstChild("Doffan Fly Shit BodyGyro")
+local Sex4 = require(BrutalSexPorn1.PlayerScripts:WaitForChild("PlayerModule"):WaitForChild("ControlModule")):GetMoveVector()
+Sex1.PlatformStand = true
+Sex2.MaxForce = Vector3.new(9e9, 9e9, 9e9)
+Sex2.Velocity = Vector3.new()
+Sex3.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
+Sex3.CFrame = PornHub7.CoordinateFrame
 if Sex4.X > 0 then
-Sex2.Velocity																	 = Sex2.Velocity + PornHub7.CFrame.RightVector * (Sex4.X * (1 * 50))
+Sex2.Velocity = Sex2.Velocity + PornHub7.CFrame.RightVector * (Sex4.X * (1 * 50))
 end
 if Sex4.X < 0 then
-Sex2.Velocity																	 = Sex2.Velocity + PornHub7.CFrame.RightVector * (Sex4.X * (1 * 50))
+Sex2.Velocity = Sex2.Velocity + PornHub7.CFrame.RightVector * (Sex4.X * (1 * 50))
 end
 if Sex4.Z > 0 then
-Sex2.Velocity																	 = Sex2.Velocity - PornHub7.CFrame.LookVector * (Sex4.Z * (1 * 50))
+Sex2.Velocity = Sex2.Velocity - PornHub7.CFrame.LookVector * (Sex4.Z * (1 * 50))
 end
 if Sex4.Z < 0 then
-Sex2.Velocity																	 = Sex2.Velocity - PornHub7.CFrame.LookVector * (Sex4.Z * (1 * 50))
+Sex2.Velocity = Sex2.Velocity - PornHub7.CFrame.LookVector * (Sex4.Z * (1 * 50))
 end
 end
 end)
 end
 
---\\																			 Gui																													\\
+--\\ Gui \\
 local porn1																		 = Instance.new("ScreenGui", PornHub1)
 local porn2																		 = Instance.new("Frame", porn1)
 local porn3																		 = Instance.new("TextLabel", porn2)
@@ -143,7 +143,7 @@ porn2.Active																	 = true
 porn1.ResetOnSpawn																 = false
 porn1.IgnoreGuiInset															 = true
 
---\\																			 Gui Function																											\\
+--\\																			 Gui Function \\
 porn4.MouseButton1Click:Connect(function()
 if not BrutalSexPorn2 then
 porns4()
@@ -162,11 +162,10 @@ porn3,
 porn4,
 porn5,
 porn6
-},
-1)
+},1)
 
 PornHub2:Create(porn2, TweenInfo.new(0.5), {
-Position																		 = UDim2.fromScale(0.5, 0.5)
+	Position																		 = UDim2.fromScale(0.5, 0.5)
 }):Play()
 
---\\																			 end																													\\
+--\\																				 end \\
